@@ -1,10 +1,7 @@
-# tts-chrome-extension
+# Text-to-Speech Chrome Extension
 A simple Chrome extension that lets you convert selected text on any webpage to speech using Gan.AI’s Text-to-Speech (TTS) API.
 
-
-# Text-to-Speech Chrome Extension
-
-## Installation
+### Installation
 
 1. **Clone the repository**:
    ```bash
