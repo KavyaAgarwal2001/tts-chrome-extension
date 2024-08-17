@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TTS Converter</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
+  <body>
+    <h3>Text-to-Speech Converter</h3>
+    <div class="step">
+      <p>Step 1: Select text on the website</p>
+    </div>
+    <div class="step">
+      <p>Step 2: Select a voice</p>
+      <select id="voice-select">
+        <!-- Options will be populated by JavaScript -->
+      </select>
+    </div>
+    <div class="step">
+      <p>Step 3: Read out loud</p>
+      <button id="convert-btn">
+        <img src="speech_icon.png" alt="Audio Icon" class="audio-icon">
+        Convert to Speech
+      </button>
+    </div>
+    <div id="loading" class="loading" style="display: none;">
+      <div class="spinner"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
