@@ -1,15 +1,6 @@
-This README provides all the information users need to understand and use the Text-to-Speech chrome extension, including setup, usage, and security practices. Let me know if you'd like to adjust or add anything specific!
+
 =======
-This is a simple Chrome extension that lets you convert selected text on any webpage to speech using Gan.AI’s Text-to-Speech (TTS) API.
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/tts-chrome-extension.git
-=======
-
-This Chrome extension allows you to convert selected text on any website into speech using the Gan.AI TTS (Text-to-Speech) API. Users can select a voice and hear the content read aloud with just a click.
+This README provides all the information users need to understand and use the Text-to-Speech chrome extension, including setup, usage, and security practices. Let me know if you'd like to adjust or add anything specific! This Chrome extension allows you to convert selected text on any website into speech using the Gan.AI TTS (Text-to-Speech) API. Users can select a voice and hear the content read aloud with just a click.
 
 ## Features
 - Convert any selected text on a webpage into speech.
@@ -37,7 +28,7 @@ There are no dependencies for this Chrome extension, but you will need a Gan.AI 
 
 To use the extension, you need to add your own Gan.AI API key. Follow these steps to set it up:
 
-1. **Go to Gan.AI's developer portal** and sign up for an API key.
+1. **Go to Gan.AI's developer platform** and sign up for an API key.
 
 2. **Create a `config.js` file** in the root directory of the cloned project:
 
@@ -70,10 +61,6 @@ To use the extension, you need to add your own Gan.AI API key. Follow these step
 1. **Select text** on any website.
 2. **Choose a voice** from the dropdown in the extension popup.
 3. **Click "Convert to Speech"** and listen to the selected text being read out loud.
-
-### From the Context Menu:
-1. **Right-click** on selected text on any webpage.
-2. Click **"Convert to Speech"** from the context menu.
 
 ### Loading Spinner
 After clicking the "Convert to Speech" button, a spinner will indicate the audio is being generated. Once the audio is ready, it will play automatically.
