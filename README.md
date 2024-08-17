@@ -71,19 +71,6 @@ After clicking the "Convert to Speech" button, a spinner will indicate the audio
 
 ---
 
-## How It Works
-
-### 1. Fetch Available Voices:
-When you open the extension, it fetches available voices from the Gan.AI API. These voices are dynamically populated in the dropdown for the user to select.
-
-### 2. Convert Selected Text to Speech:
-When you click the "Convert to Speech" button, the extension sends the selected text and the chosen voice to the Gan.AI TTS API, which returns a WAV audio file.
-
-### 3. Audio Playback:
-Once the TTS API returns the audio, it is played directly in the browser using the `Audio` API.
-
----
-
 ## Development Notes
 
 ### Avoid Committing Your API Key
