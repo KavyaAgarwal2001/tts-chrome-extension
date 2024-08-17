@@ -1,5 +1,5 @@
 
-=======
+## Text-to-Speech Chrome Extension
 This README provides all the information users need to understand and use the Text-to-Speech chrome extension, including setup, usage, and security practices. Let me know if you'd like to adjust or add anything specific! This Chrome extension allows you to convert selected text on any website into speech using the Gan.AI TTS (Text-to-Speech) API. Users can select a voice and hear the content read aloud with just a click.
 
 ## Features
